@@ -1,6 +1,6 @@
-# TraverSia
+# TOUR ONE
 
-## live site : https://traversia-5a136.web.app/
+## live site : 
 ### Technologies: Html,css,React js, React bootstrap, Firebase,mongodb  .
 
 ## project details: <p>google authentication , email and password authentication , redirecting if user have not login or signin using google or email</p>
