@@ -1,0 +1,19 @@
+
+
+.service-container{
+    border: 1px solid green;
+    text-align: center;
+    background-color:#eee;
+    margin: 10px;
+    border-radius:10px;
+    transition: 1s;
+}
+.service-container:hover{
+    background-color:rgba(88, 86, 87, 0.582);
+    transform:scale(1.1);
+}
+.service-container img{
+    margin: 10px;
+    border-radius: 10px;
+
+}

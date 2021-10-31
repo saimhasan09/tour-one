@@ -1,0 +1,14 @@
+.footer-container{
+    background-color: #eee;
+}
+.footer-container a{
+    font-size: 24px;
+    margin: 5px;
+}
+.footer-container a:hover{
+    font-size: 24px;
+    margin: 5px;
+    padding: 10px;
+    background-color:rgb(100, 230, 202);
+    border-radius: 50% ;
+}

@@ -1,0 +1,25 @@
+.slide-bg1{
+    background-image: url('../Images/tour-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-bg2{
+    background-image: url('../Images//tour-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-bg3{
+    background-image: url('../Images/tour-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-text{
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.slide-text h1{
+    font-family: 'sans-serif';
+    font-size: 3rem;
+    color: rgb(28, 22, 87);
+}

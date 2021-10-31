@@ -1,0 +1,11 @@
+.blogs-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.blogs-container img{
+    width: 75%;
+    border-radius:10px;
+    
+}

@@ -1,0 +1,11 @@
+.service-details{
+    background-color: #eee;
+    text-align: center;
+    align-items: center;
+
+}
+.service-details img{
+    margin: 20px;
+    border-radius:10px;
+    
+}
