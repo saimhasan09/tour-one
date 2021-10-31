@@ -48,9 +48,9 @@ function App() {
             <Route path='/myOrder'>
               <MyOrder></MyOrder>
             </Route>
-            <Route path='/manageOrder'>
+            <PrivateRoute path='/manageOrder'>
               <ManageAllOrder></ManageAllOrder>
-            </Route>
+            </PrivateRoute>
             <Route path="*">
               <PagenotFound></PagenotFound>
             </Route>

@@ -11,12 +11,12 @@ const Service = ({ service }) => {
     return (
         <div className="col-md-4 ">
 
-           <div className="service-container">
-           <img src={img} alt="" className="img-fluid" />
-            <h3>{Name}</h3>
-            <p className="px-3">{description}</p>
-            <Link to={url}><button className='btn btn-outline-success mb-3 '>Book Now </button></Link>
-           </div>
+            <div className="service-container">
+                <img src={img} alt="" className="img-fluid" />
+                <h3>{Name}</h3>
+                <p className="px-3">{description}</p>
+                <Link to={url}><button className='btn btn-outline-success mb-3 '>Purchase Now </button></Link>
+            </div>
         </div>
     );
 };

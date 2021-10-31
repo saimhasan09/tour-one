@@ -10,7 +10,7 @@ const Login = () => {
     const { signInUsingGoogle, signInwithpass, HandelEmail, HandelPassword, auth, email, password } = useAuth()
     const history = useHistory();
     const location = useLocation();
-    const { from } = location.state || { from: { pathname: "/placeOrder" } };
+    let { from } = location.state || { from: { pathname: "/" } };
 
     const handleGoogleLogin = () => {
         signInUsingGoogle()

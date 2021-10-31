@@ -6,7 +6,7 @@ const AddService = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('https://floating-lowlands-24787.herokuapp.com/services', data)
+        axios.post('https://wicked-crypt-49514.herokuapp.com/services', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Insert successfully');

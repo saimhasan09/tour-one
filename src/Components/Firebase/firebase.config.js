@@ -1,11 +1,11 @@
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDrAOaewOmXL9RJg2ewVXEs-055TfI5QFs",
-    authDomain: "traversia-5a136.firebaseapp.com",
-    projectId: "traversia-5a136",
-    storageBucket: "traversia-5a136.appspot.com",
-    messagingSenderId: "1077373967388",
-    appId: "1:1077373967388:web:7f6cd2ce22e996575693d9"
-  };
-  export default firebaseConfig;
+  apiKey: "AIzaSyC2KzHHJZZMqoTsRJ4NyDunIE5yxCkze00",
+  authDomain: "tour-one1.firebaseapp.com",
+  projectId: "tour-one1",
+  storageBucket: "tour-one1.appspot.com",
+  messagingSenderId: "807488935860",
+  appId: "1:807488935860:web:a77f5ddc2fecb3e40004e1"
+};
+export default firebaseConfig;

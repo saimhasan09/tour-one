@@ -11,7 +11,7 @@ const PlaceOrder = () => {
     const [service, setService] = useState({});
 
     const onSubmit = data => {
-        
+
         const newOrder = {
             name: user.displayName,
             email: user.email,
@@ -22,36 +22,36 @@ const PlaceOrder = () => {
             status: 'Panding'
         }
         console.log(newOrder);
-        
-        const url = `https://floating-lowlands-24787.herokuapp.com/placeOrder`;
+
+        const url = `https://wicked-crypt-49514.herokuapp.com/placeOrder`;
         fetch(url, {
-            method: 'POST', 
+            method: 'POST',
             headers: {
-                'Content-type' : 'application/json'
+                'Content-type': 'application/json'
             },
             body: JSON.stringify(newOrder)
         })
-        .then(res => console.log(res));
+            .then(res => console.log(res));
         alert('added in database..');
     };
 
 
     useEffect(() => {
-        fetch(`https://floating-lowlands-24787.herokuapp.com/services/${serviceId}`)
+        fetch(`https://wicked-crypt-49514.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
     return (
         <div className='service-details'>
-                <img name='serviceImg' src={service.img} alt="" className='img-fluid ' />
-                <h2 name='serviceName'>{service.Name}</h2>
-                <p name='serviceDescription'>{service.description}</p>
-                <h6><i class="fas fa-user"></i>  {user.displayName}</h6>
-                <h6><i class="fas fa-envelope"></i>  {user.email}</h6>
-                
+            <img name='serviceImg' src={service.img} alt="" className='img-fluid ' />
+            <h2 name='serviceName'>{service.Name}</h2>
+            <p name='serviceDescription'>{service.description}</p>
+            <h6><i class="fas fa-user"></i>  {user.displayName}</h6>
+            <h6><i class="fas fa-envelope"></i>  {user.email}</h6>
+
             <form onSubmit={handleSubmit(onSubmit)}>
-                <input {...register("address", { required: true, maxLength: 20 })} placeholder='Enter your address' /><br/>
-                <input type="date" /> <br/>
+                <input {...register("address", { required: true, maxLength: 20 })} placeholder='Enter your address' /><br />
+                <input type="date" /> <br />
                 <input type="submit" value="conform Now" />
             </form>
         </div>

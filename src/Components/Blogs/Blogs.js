@@ -1,20 +1,19 @@
 import React from 'react';
-import img from '../Images/tour-4.jpg'
 import './Blogs.css'
 const Blogs = () => {
     return (
         <div className='w-100'>
             <h1 className='text-center my-5'>Learn More</h1>
             <div className='blogs-container'>
-            <div className='col-md-6'>
-<h1>Weekend in Europe, London</h1>
-<p>For a long time, London was a small city. All its people lived inside the walls that were built by the Romans. This area is still called the City of London. There were many villages around it and gradually they joined.</p>
-<button className='btn btn-outline-success'>View Details</button>
+                <div className='col-md-6'>
+                    <h1>Weekend in Your Favorite Place</h1>
+                    <p>So in no particular order, below you’ll find my favorite travel blogs for 2021. Follow them if you’d like to escape from reality for a while during your work break — and maybe get inspired for your next trip in the process!</p>
+                    <button className='btn btn-outline-success'>View Details</button>
+                </div>
+                <div >
+                    <img src="https://i.ibb.co/jDPmTQ2/Niagara-Falls-including-American-Falls-in-foreground-and-Horseshoe-Falls-in-background-with-autumn-l.jpg" alt="Niagara-Falls-including-American-Falls-in-foreground-and-Horseshoe-Falls-in-background-with-autumn-l" />
+                </div>
             </div>
-            <div >
-                <img src={img } className='img-fluid' />
-            </div>
-        </div>
         </div>
     );
 };
