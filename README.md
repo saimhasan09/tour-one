@@ -13,3 +13,6 @@
 <li> User can learn about the Tour.</li>
 <li> User can delete and update the tour</li>
 <li> User can contact with us.</li>
+
+Contributor:
+Saim Hasan Nahid
